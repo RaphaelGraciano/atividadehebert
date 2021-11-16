@@ -12,7 +12,6 @@ public class Programa1 {
         InputStreamReader lerinput = new InputStreamReader(arquivo);
         BufferedReader buff = new BufferedReader(lerinput);
         String line = buff.readLine();
-
         String[] input = new String[3];
         int i = -1;
         while (line != null) {
