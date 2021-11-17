@@ -14,16 +14,16 @@ public class Programa2 {
         String line = buff.readLine();
         String input1 = line;
         line = buff.readLine();
-        String[] input1Separado = input1.split(" ");
-        String[] input = new String[Integer.parseInt(input1Separado[1])];
+        String[] input1a = input1.split(" ");
+        String[] input = new String[Integer.parseInt(input1a[1])];
         int i = -1;
         while (line != null) {
             i = i + 1;
             input[i] = line;
             line = buff.readLine();
         }
-        int[] vendedores = new int[Integer.parseInt(input1Separado[0])];
-        int[] desempenho = new int[Integer.parseInt(input1Separado[0])];
+        int[] vendedores = new int[Integer.parseInt(input1a[0])];
+        int[] desempenho = new int[Integer.parseInt(input1a[0])];
         int fim = 1;
         for (int j = 0; j < vendedores.length; j++) {
             try {
